@@ -71,7 +71,7 @@ router.post("/ngo/signup", async (req, res) => {
       </p>
 
       <div style="margin-top:30px; text-align:center;">
-        <a href="http://localhost:8000/ngo-login.html"
+        <a href="https://impact-link.netlify.app/ngo-login.html"
            style="background:#1e40af; color:white; padding:12px 20px; border-radius:8px; text-decoration:none; font-weight:600;">
            Login to Dashboard
         </a>
@@ -142,7 +142,7 @@ router.post("/volunteer/signup", async (req, res) => {
         </p>
 
         <div style="margin:25px 0;">
-          <a href="http://localhost:8000/volunteer-login.html"
+          <a href="https://impact-link.netlify.app/volunteer-login.html"
              style="background:#f97316; color:white; padding:12px 20px; 
              text-decoration:none; border-radius:8px; font-weight:600;">
              Login to Your Dashboard
