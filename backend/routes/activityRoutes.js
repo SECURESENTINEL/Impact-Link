@@ -9,14 +9,12 @@ const Notification = require("../models/Notification");
 const router = express.Router();
 const transporter = nodemailer.createTransport({
   host: "smtp-relay.brevo.com",
-  port: 465,
+  port: 2525,
   secure: false,
   auth: {
     user: process.env.EMAIL_USER,
     pass: process.env.EMAIL_PASS,
   },
-  connectionTimeout: 10000,
-  greetingTimeout: 10000,
 });
 
 async function sendMail(to, subject, html) {
