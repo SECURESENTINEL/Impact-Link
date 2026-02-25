@@ -1,7 +1,6 @@
 require("dotenv").config();
 const express = require("express");
 const bcrypt = require("bcryptjs");
-const nodemailer = require("nodemailer");
 const NGO = require("../models/NGO");
 const Volunteer = require("../models/Volunteer");
 

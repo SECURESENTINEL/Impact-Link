@@ -1,6 +1,6 @@
+require("dotenv").config();
 const VolunteerNotificationDetails = require("../models/VolunteerNotificationDetails");
 const Volunteer = require("../models/Volunteer");
-const nodemailer = require("nodemailer");
 const express = require("express");
 const Activity = require("../models/Activity");
 const ActivityRequest = require("../models/ActivityRequest");
